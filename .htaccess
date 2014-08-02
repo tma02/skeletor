@@ -1,4 +1,3 @@
-AddType application/x-httpd-php .pw
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
