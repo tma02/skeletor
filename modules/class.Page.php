@@ -62,6 +62,11 @@ class Page {
 		$this->displayFooter();
 	}
 
+	public function displayPageContent() {
+		$this->runLogic();
+		$this->displayContent();
+	}
+
 }
 
 ?>
